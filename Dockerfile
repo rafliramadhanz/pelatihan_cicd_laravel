@@ -11,7 +11,7 @@ WORKDIR /home/app/app
 
 #install dependencies
 COPY composer.json composer.json
-RUN composer install --prefer-dist --no-script --no-dev --no autoloader && rm -rf /home/app/.composer
+RUN composer install --prefer-dist --no-scripts --no-dev --no-autoloader && rm -rf /home/app/.composer
 
 #copy database
 COPY --chown=app:root . ./
