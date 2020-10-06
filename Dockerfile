@@ -1,5 +1,5 @@
 #using this awesome prebuild image:
-FROM '123majumundur/php-7.1-ngix:cicd'
+FROM '123majumundur/php-7.1-nginx:cicd'
 MAINTAINER Rafli Ramadhan <rafliramadhanz1599@gmail.com>
 
 #install prestissimo from faster deps instalation
